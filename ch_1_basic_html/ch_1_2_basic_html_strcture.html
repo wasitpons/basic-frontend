@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      background-color: white;
+      color: black;
+    }
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+      font-size: 16px;
+    }
+    
+    tr:nth-child(odd) {
+      background-color: #dddddd;
+    }
+  </style>
+  <body>
+    <table>
+      <tr>
+        <th>Tags</th>
+        <th>Result</th>
+      </tr>
+      <tr>
+        <td>
+          <xmp>
+            <table>
+              <tr>
+                <th>h1</th>
+                <th>h2</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+            </table>
+          </xmp>
+        </td>
+        <td><img src="./demo2.png" /></td>
+      </tr>
+      <tr>
+        <td><xmp>
+          <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+          </ul>
+        </xmp></td>
+        <td>
+          <ul>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><xmp>
+          <input type="text" />
+        </xmp></td>
+        <td>
+          <input type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td><xmp>
+          <input
+            max="99"
+            min="1"
+            step="1"
+            type="number"
+            value="18"
+          />
+        </xmp></td>
+        <td>
+          <input
+            max="99"
+            min="1"
+            step="1"
+            type="number"
+            value="18"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td><xmp>
+          <input
+            checked="checked"
+            type="radio"
+            value="daily"
+          /> Daily
+          <input
+            type="radio"
+            value="weekly"
+          /> Weekly
+        </xmp></td>
+        <td>
+          <input
+            checked="checked"
+            type="radio"
+            value="daily"
+          /> Daily
+          <input
+            type="radio"
+            value="weekly"
+          /> Weekly
+        </td>
+      </tr>
+      <tr>
+        <td><xmp>
+          <input
+            name="accept"
+            type="checkbox"
+            value="accept"
+          />Accept
+        </xmp></td>
+        <td>
+          <input
+            name="accept"
+            type="checkbox"
+            value="accept"
+          />Accept
+        </td>
+      </tr>
+      <tr>
+        <td><xmp>
+          <input type="submit" value="Submit" />
+        </xmp></td>
+        <td>
+          <input type="submit" value="Submit" />
+        </td>
+      </tr>
+      <tr>
+        <td><xmp>
+          <textarea rows="4" cols="50"></textarea>
+        </xmp></td>
+        <td>
+          <textarea rows="4" cols="50"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td><xmp>
+          <select name="number" id="number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </xmp></td>
+        <td>
+          <select name="number" id="number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><xmp>
+          <button type="button">Click Me!</button>
+        </xmp></td>
+        <td>
+          <button type="button">Click Me!</button>
+        </td>
+      </tr>
+      <tr>
+        <td><xmp>
+          <label for="file">
+            Downloading progress:
+          </label>
+          <progress
+            value="32"
+            max="100"
+          >
+            32%
+          </progress>
+        </xmp></td>
+        <td>
+          <label for="file">
+            Downloading progress:
+          </label>
+          <progress
+            value="32"
+            max="100"
+          >
+            32%
+          </progress>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
