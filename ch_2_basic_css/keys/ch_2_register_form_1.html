@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      background-color: white;
+      color: black;
+    }
+  </style>
+  <body>
+    <div>
+      <div
+        style="
+          text-align: center;
+          font-weight: 700;
+          font-size: 30px;
+          padding: 10px 0;
+        "
+      >
+        Registration
+      </div>
+      <div>
+        <progress
+        style="width: 100%;"
+        value="50"
+        max="100"></progress>
+      </div>
+      <div
+        style="
+          margin: 20px 0;
+          text-align: center;
+        ">
+        <div
+          style="
+            border: 2px solid black;
+            border-radius: 20px;
+            width: 20px;
+            height: 15px;
+            text-align: center;
+            padding: 10px;
+            display: inline;
+          "
+        >1/2</div>
+        <div
+          style="
+            display: inline;
+            margin-left: 20px;
+            font-size: 20px;
+            font-weight: 700;
+          "
+        >User infomation</div>
+      </div>
+    </div>
+    <div style="margin-top: 50px;">
+      <div>
+        Full Name:
+        <input style="padding: 5px; width: 100%;" />
+      </div>
+      <br />
+      <div>
+        Age:
+        <input
+          max="99"
+          min="1"
+          step="1"
+          type="number"
+          value="18"
+          style="padding: 5px; width: 100%;"
+        />
+      </div>
+      <br />
+    </div>
+    <div>
+      Sex: <br />
+      <input
+      checked="checked"
+      type="radio"
+      value="male"
+    /> Male
+    <input
+      type="radio"
+      value="female"
+    /> Female
+    </div>
+    <br />
+    <div>
+      Vaccine:
+      <br />
+      <select name="Vaccine" id="Vaccine" style="padding: 5px; width: 100%;">
+        <option value="astazeneca">Astazeneca</option>
+        <option value="sinovac">Sinovac</option>
+        <option value="sinofarm">Sinofarm</option>
+        <option value="pfizer">Pfizer</option>
+        <option value="moderna">Moderna</option>
+      </select>
+    </div>
+    <br />
+    <div>
+      <div>
+        Address: <textarea style="width: 100%;"></textarea>
+      </div>
+      <br />
+    </div>
+    <a
+      style="
+        color: white;
+        text-decoration: none;
+      " 
+      href="ch_2_register_form_2.html">
+      <div
+      style="
+        border: 1px solid white;
+        border-radius: 20px;
+        width: 100%;
+        height: 20px;
+        background-color: #0170fe;
+        text-align: center;
+        padding: 10px 0;
+      ">Next
+      </div>
+    </a>
+  </body>
+</html>
