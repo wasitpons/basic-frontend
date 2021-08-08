@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      background-color: white;
+      color: black;
+    }
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+      font-size: 16px;
+    }
+    
+    tr:nth-child(odd) {
+      background-color: #dddddd;
+    }
+  </style>
+  <body>
+    <table>
+      <tr>
+        <th>Properties</th>
+        <th>Result</th>
+      </tr>
+      <tr>
+        <td>
+          <h3>Background</h3>
+          <xmp>
+            <div
+            style="
+              background-color: black;
+              width: 50px;
+              height: 50px;
+            "
+            ></div>
+          </xmp>
+        </td>
+        <td>
+          <div
+            style="
+              background-color: black;
+              width: 50px;
+              height: 50px;
+            "
+            ></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Border</h3>
+          <xmp>
+            <div
+              style="
+                border: 2px solid black;
+                width: 50px;
+                height: 50px;
+              "
+            ></div>
+          </xmp>
+        </td>
+        <td>
+          <div
+            style="
+              border: 2px solid black;
+              width: 50px;
+              height: 50px;
+            "
+          ></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Border Radius</h3>
+          <xmp>
+            <div
+              style="
+                border: 2px solid black;
+                border-radius: 10px;
+                width: 50px;
+                height: 50px;
+              "
+            ></div>
+          </xmp>
+        </td>
+        <td>
+          <div
+            style="
+              border: 2px solid black;
+              border-radius: 10px;
+              width: 50px;
+              height: 50px;
+            "
+          ></div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Margin</h3>
+          <xmp>
+            <div
+              style="
+                margin: 0 0 10px 0;
+                border: 2px solid black;
+                width: 20px;
+                height: 20px;
+              "
+            >1</div>
+            <div
+              style="
+                border: 2px solid black;
+                width: 20px;
+                height: 20px;
+              "
+            ><2/div>
+          </xmp>
+        </td>
+        <td>
+          <div
+            style="
+              margin: 0 0 10px 0;
+              border: 2px solid black;
+              width: 20px;
+              height: 20px;
+            "
+          >1</div>
+          <div
+            style="
+              border: 2px solid black;
+              width: 20px;
+              height: 20px;
+            "
+          >2</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Padding</h3>
+          <xmp>
+            <div
+              style="
+                padding: 0 0 10px 0;
+                border: 2px solid black;
+                width: 20px;
+                height: 20px;
+              "
+            >1</div>
+            <div
+              style="
+                border: 2px solid black;
+                width: 20px;
+                height: 20px;
+              "
+            ><2/div>
+          </xmp>
+        </td>
+        <td>
+          <div
+            style="
+              padding: 0 0 10px 0;
+              border: 2px solid black;
+              width: 20px;
+              height: 20px;
+            "
+          >1</div>
+          <div
+            style="
+              border: 2px solid black;
+              width: 20px;
+              height: 20px;
+            "
+          >2</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Align Div</h3>
+          <xmp>
+            <div
+              style="
+                margin: auto;
+                border: 2px solid black;
+                width: 20px;
+                height: 20px;
+              "
+            >c</div>
+            <div
+              style="
+                margin-right: auto;
+                border: 2px solid black;
+                width: 20px;
+                height: 20px;
+              "
+            >l</div>
+            <div
+              style="
+                margin-left: auto;
+                border: 2px solid black;
+                width: 20px;
+                height: 20px;
+              "
+            >r</div>
+          </xmp>
+        </td>
+        <td>
+          <div
+            style="
+              margin: 0 auto 0 auto;
+              border: 2px solid black;
+              width: 20px;
+              height: 20px;
+            "
+          >c</div>
+          <div
+            style="
+              margin-right: auto;
+              border: 2px solid black;
+              width: 20px;
+              height: 20px;
+            "
+          >l</div>
+          <div
+            style="
+              margin-left: auto;
+              border: 2px solid black;
+              width: 20px;
+              height: 20px;
+            "
+          >r</div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Align Object</h3>
+          <xmp>
+            <div 
+              style="
+                position: relative;
+                width: 100px;
+                height: 300px;
+                border: 2px solid black;
+            ">
+              <div
+                style="
+                  position: absolute;
+                  top: 10px;
+                  left: 10px;
+              ">
+                top-l
+              </div>
+              <div
+                style="
+                  position: absolute;
+                  top: 50%;
+                  width: 100%;
+                  text-align: center;
+              ">
+                center
+              </div>
+              <div
+                style="
+                  position: absolute;
+                  bottom: 10px;
+                  right: 10px;
+              ">
+                bottom-r
+              </div>
+            </div>
+          </xmp>
+        </td>
+        <td>
+          <div 
+            style="
+              position: relative;
+              width: 100px;
+              height: 300px;
+              border: 2px solid black;
+            ">
+            <div
+              style="
+                position: absolute;
+                top: 10px;
+                left: 10px;
+            ">
+              top-l
+            </div>
+            <div
+              style="
+                position: absolute;
+                top: 50%;
+                width: 100%;
+                text-align: center;
+            ">
+              center
+            </div>
+            <div
+              style="
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+            ">
+              bottom-r
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
