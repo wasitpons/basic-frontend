@@ -30,6 +30,11 @@
     #p {
       color: green;
     }
+    .square {
+      width: 50px;
+      height: 20px;
+      border: 1px solid black;
+    }
   </style>
   <body>
     <p>Test css style</p>
@@ -321,6 +326,140 @@
           </div>
         </td>
       </tr>
+      <tr>
+        <td>
+          <xmp>
+            <div style="
+              display: flex;
+              flex-direction: row;
+            ">
+              <div class="square">1</div>
+              <div class="square">2</div>
+              <div class="square">3</div>
+              <div class="square">4</div>
+              <div class="square">5</div>
+            </div>
+          </xmp>
+        </td>
+        <td>
+          <div style="
+            display: flex;
+            flex-direction: row;
+          ">
+            <div class="square">1</div>
+            <div class="square">2</div>
+            <div class="square">3</div>
+            <div class="square">4</div>
+            <div class="square">5</div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <xmp>
+            <div style="
+              display: flex;
+              flex-direction: column;
+            ">
+              <div class="square">1</div>
+              <div class="square">2</div>
+              <div class="square">3</div>
+              <div class="square">4</div>
+              <div class="square">5</div>
+            </div>
+          </xmp>
+        </td>
+        <td>
+          <div style="
+            display: flex;
+            flex-direction: column;
+          ">
+            <div class="square">1</div>
+            <div class="square">2</div>
+            <div class="square">3</div>
+            <div class="square">4</div>
+            <div class="square">5</div>
+          </div>
+        </td>
+        <tr>
+          <td>
+            <xmp>
+              <div style="
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+              ">
+                <div class="square">1</div>
+                <div class="square">2</div>
+                <div class="square">3</div>
+                <div class="square">4</div>
+                <div class="square">5</div>
+                <div class="square">6</div>
+                <div class="square">7</div>
+              </div>
+            </xmp>
+          </td>
+          <td>
+            <div style="
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: space-between;
+            ">
+              <div class="square">1</div>
+              <div class="square">2</div>
+              <div class="square">3</div>
+              <div class="square">4</div>
+              <div class="square">5</div>
+              <div class="square">6</div>
+              <div class="square">7</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <xmp>
+              <div style="
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+              ">
+                <div class="square">1</div>
+                <div class="square">2</div>
+                <div class="square">3</div>
+                <div class="square">4</div>
+                <div class="square">5</div>
+                <div class="square">6</div>
+                <div class="square">7</div>
+                <div class="square">8</div>
+                <div class="square">9</div>
+              </div>
+            </xmp>
+          </td>
+          <td>
+            <div style="
+              display: flex;
+  	          flex-direction: row;
+	            flex-wrap: wrap;
+	            justify-content: space-between;
+            ">
+              <div class="square">1</div>
+              <div class="square">2</div>
+              <div class="square">3</div>
+              <div class="square">4</div>
+              <div class="square">5</div>
+              <div class="square">6</div>
+              <div class="square">7</div>
+              <div class="square">8</div>
+              <div class="square">9</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+        </tr>
     </table>
   </body>
 </html>
